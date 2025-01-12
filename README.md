@@ -6,7 +6,7 @@ Aquí tienes una descripción en formato Markdown para tu proyecto en GitHub bas
 
 **Versión:** 2.0  
 **Autor:** Alexander Saravia  
-**Fecha:** 12/01/2025  
+**Fecha de creación:** 12/01/2025  
 
 ## 📖 Descripción del Proyecto
 
@@ -15,6 +15,42 @@ Aquí tienes una descripción en formato Markdown para tu proyecto en GitHub bas
 Este proyecto combina lo mejor de las tecnologías modernas para ofrecer una solución eficiente, segura y orientada a las necesidades médicas.
 
 ---
+
+## 📂 Estructura del Proyecto
+
+```
+galenus_ai/
+├── data/                     # Almacena datos de entrada y salida para pruebas
+│   ├── input/                # Documentos de entrada (PDF, imágenes, etc.) 
+│   └── output/               # Resultados procesados
+├── docs/                     # Documentación del proyecto
+├── infra/                    # Infraestructura y configuración
+│   ├── configs/              # Archivos de configuración (.env)
+│   └── docker/               # Archivos Docker
+├── src/                      # Código fuente del proyecto
+│   ├── backend/              # Backend principal (FastAPI)
+│   │   ├── app.py            # Punto de entrada del backend
+│   │   └── requirements.txt  # Dependencias del backend
+│   ├── frontend/             # Frontend (Flask)
+│   │   ├── app.py            # Punto de entrada del frontend
+│   │   └── requirements.txt  # Dependencias del frontend
+│   ├── orchestrator/         # Orquestador para enrutar datos
+│   │   └── main.py           # Lógica del orquestador
+│   ├── processors/           # Procesadores de datos
+│   │   ├── text/             # Procesamiento de texto
+│   │   ├── image/            # Procesamiento de imágenes
+│   │   └── audio/            # Procesamiento de audio
+│   ├── knowledge_base/       # Base de conocimiento (ChromaDB/OpenSearch)
+│   │   └── database.py       # Conexión a la base vectorial
+│   └── cache/                # Gestión de caché (Redis)
+│       └── redis_handler.py  # Conexión y manejo de Redis
+├── tests/                    # Pruebas del proyecto
+│   ├── unit/                 # Pruebas unitarias
+│   └── integration/          # Pruebas de integración
+├── docker-compose.yml        # Configuración de Docker Compose
+├── .gitignore                # Configuración para ignorar archivos en Git
+├── README.md                 # Documentación principal del proyecto
+```
 
 ## 🛠️ Tecnologías Utilizadas
 
