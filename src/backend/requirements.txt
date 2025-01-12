@@ -1,0 +1,13 @@
+langchain==0.3.14
+pandas
+scikit-learn
+tensorflow
+torch
+transformers
+ollama
+opencv-python
+pypdf2
+matplotlib
+seaborn
+openai 
+duckduckgo-search
