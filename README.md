@@ -1,7 +1,3 @@
-Aquí tienes una descripción en formato Markdown para tu proyecto en GitHub basada en la arquitectura conceptual que proporcionaste:
-
----
-
 # 🌟 Galenus AI: Asistente Médico Inteligente 🌟
 
 **Versión:** 2.0  
