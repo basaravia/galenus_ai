@@ -1,0 +1,5 @@
+# Ignorar archivos de configuración con secretos
+infra/configs/.env
+
+# Ignorar carpeta de datos
+data/
